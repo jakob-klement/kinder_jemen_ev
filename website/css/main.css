@@ -700,9 +700,6 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     padding: 0 15px;
 }
 
-ul.nav {
-}
-
 ul.nav > li {
     position: relative;
 }
@@ -721,18 +718,22 @@ ul.nav > li > a {
     z-index: 1;
 }
 
-ul.nav li.phone {
+ul.nav li.highlight {
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: #263a4f;
     font-weight: 600;
-    line-height: 80px;
     padding-left: 50px;
 }
 
-ul.nav li.phone i {
-    color: #E58F11;
-    margin-right: 0px;
+ul.nav li.highlight a {
+    background-color: #E58F11;
+    color: white !important;
+}
+
+ul.nav li.highlight a:hover {
+    background-color: #C06E00;
+    color: #ffffff !important;
 }
 
 ul.nav > li > a:hover,
@@ -1518,7 +1519,7 @@ ul.nav > li > a.active {
     left: 0;
     bottom: -58px;
     background-color: #fff;
-    box-shadow: 0px 14px 70px -10px rgba(0, 0, 0, .15);
+    box-shadow: 0 14px 70px -10px rgba(0, 0, 0, .15);
     transform: rotate(-90deg);
     transform-origin: 0 0;
     padding: 10px 15px;
@@ -1543,7 +1544,7 @@ ul.nav > li > a.active {
     font-family: "Work Sans", sans-serif;
     padding: 5px 10px;
     background-color: #E58F11;
-    box-shadow: 0px 14px 70px -10px rgba(0, 0, 0, .15);
+    box-shadow: 0 14px 70px -10px rgba(0, 0, 0, .15);
     font-weight: 200;
     z-index: 2;
 }
@@ -2897,13 +2898,4 @@ blockquote span {
     padding-left: 12.5%;
 }
 
-.highlight {
-    background-color: #E58F11;
-    color: white !important;
-}
-
-.highlight:hover {
-    background-color: #E58F11;
-    color: #263a4f !important;
-}
 
