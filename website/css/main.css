@@ -85,7 +85,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
-    color: #263a4f;
+    color: #e58f11;
 }
 
 .bg-dark h1,
@@ -723,7 +723,7 @@ ul.nav li.highlight {
     font-family: "Poppins", sans-serif;
     color: #263a4f;
     font-weight: 600;
-    padding-left: 50px;
+    margin: 0 10px 0 50px;
 }
 
 ul.nav li.highlight a {
@@ -2898,4 +2898,35 @@ blockquote span {
     padding-left: 12.5%;
 }
 
+.language-switcher a {
+    padding: 0 5px !important;
+}
 
+.language-switcher a img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-media-links a {
+    padding: 0 5px !important;
+}
+
+.social-media-links a span {
+    line-height: 80px;
+}
+
+.slicknav_menu .slicknav_nav .language-switcher,
+.slicknav_menu .slicknav_nav .social-media-links {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}
+
+.slicknav_menu .slicknav_nav .language-switcher a,
+.slicknav_menu .slicknav_nav .social-media-links a {
+    padding: 0 !important;
+}
+
+.slicknav_menu .slicknav_nav .social-media-links a span {
+    line-height: 1 !important;
+}
